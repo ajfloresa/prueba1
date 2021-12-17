@@ -15,6 +15,6 @@ int main(){
      }else{
          hanoi(n-1,o,d,a);
          cout<<"Mover disco del "<<o<<" al "<<d<<endl;
-         hanoi(n-1,a,o,d);
+         
      }
  }
